@@ -171,7 +171,7 @@ body {
 .begin .container .row {
     align-items: center;
     
-    gap : 15% ;
+    gap : 9% ;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -481,7 +481,7 @@ border-radius: 4.1186px;
 
  .testimonials h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .testimonial{
@@ -570,59 +570,6 @@ border-radius: 4.1186px;
    display: flex;
    flex-direction: column;
 }
-
-@media screen and (max-width: 1471px)
-{
-    .footer .row{
-        gap: 10px;
-    }
-    .start{
-
-       flex-direction: column;
-       align-items: center;
-        width: 100%;
-    }
-    .start p{
-        width: 607px;
-    }
-    .end{
-        width: 100%;
-    } 
-    .menu{
-        display: block;
-    }  
-    .cou {
-        flex-wrap: wrap;
-        width: 100%;
-          
-    } 
-    .h2head{
-      
-        font-size :15px ;
-          
-    }
-    .best{
-        font-size :10px ;  
-    }
-   .course-items{
-
-    width: 100%;
-   }
-   .seeall{
-    font-size:13px;
-       }
-       .coursenamedetails{
-        font-size :  8px;
-       }
-       .b1 {
-        display: none;
-       }
-       h1 {
-        font-size: 20px;
-       }
-       
-}
-
 /* people takling courses*/
 
 .selectedcourses{
@@ -710,6 +657,72 @@ text-align: center;
     
     padding-top: 30px;
 }
+.ww{
+    width: 50px;
+}
+
+@media screen and (max-width: 1471px)
+{
+    .footer .row{
+        gap: 10px;
+    }
+    .start{
+
+       flex-direction: column;
+       align-items: center;
+        width: 100%;
+    }
+    .start p{
+        width: 607px;
+    }
+    .end{
+        width: 100%;
+    } 
+    .menu{
+        display: block;
+    }  
+    .cou {
+        flex-wrap: wrap;
+        width: 100%;
+          
+    } 
+    .h2head{
+      
+        font-size :15px ;
+          
+    }
+    .best{
+        font-size :10px ;  
+    }
+   
+   .seeall{
+    font-size:13px;
+       }
+       .coursenamedetails{
+        font-size :  8px;
+       }
+       .b1 {
+        display: none;
+       }
+       h1 {
+        font-size: 20px;
+       }
+       
+       .courses {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+       }
+       .course-desc{
+        
+        width: fit-content;
+        a{
+            
+            font-size: 5px;
+        }
+}
+
+
 
 @media screen and (max-width: 735px)
 {
@@ -741,15 +754,101 @@ text-align: center;
           
     }
     .best{
-        font-size :8px ;  
+        font-size :1px ;  
     }
    .course-items{
 
     width: 100%;
    }
    .seeall{
-font-size:7px;
+font-size: 100%;
    }
+   .courses{
+    width: 100%;
+   }
+   .about{
+    width: 100%;
+   }
+   .begin{
+    width: 100%;
+   }
+   .course-descp{
+    width: 100%;
+    
+   }
+ .img3
+{  width: 100%;
+    margin-top :20px;}
+
+
+   
+
+   .r-p{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+.ww{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}  .service{
+    display: flex;
+  width: 100%;
+  padding-left: 0px;
+  p{
+    font-size: medium;
+  }
+ }
+
+ .course{
+    p{
+        font-size: 7px;
+    
+    }
+    a{
+        font-size: 7px;
+    }
+    span {
+        font-size: 7px;
+       
+        margin-bottom: 30px;
+    
+    }
+    .coursename{
+      p{font-size: 7px;}
+      .h2head{
+        font-size: 7px;
+
+      }
+      .best{
+        font-size: 7px;  
+      }
+      .name_view .p{
+        font-size: 5px;
+      }
+
+    }
+    
+    }
+    .course-desc{
+        
+        width: fit-content;
+        a{
+            
+            font-size: 5px;
+        }
+}
+.course .course-info .best {
+    font-size: 8px;
+    margin-bottom: 30px;
+    height: 20px;
+    padding: 2px;
+    
+
+}
 }
 
 @media screen and (max-width: 484px)
@@ -760,6 +859,97 @@ font-size:7px;
     .menu{
         display: block;
     }
+    .begin .p2 ,.p2 .highlight{
+        width: 100%; 
+        margin-top :20px;
+        font-size: 30px;
+     }
+     .service{
+        display: flex;
+      width: 100%;
+      padding-left: 0px;
+      p{
+        font-size: small;
+      }
+     }
+    
+     .about {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+     }
+     .give {
+        display: table-column;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+       
+     }
+    .course{
+        p{
+            font-size: 6px;
+        
+        }
+        a{
+            font-size: 6px;
+        }
+        span {
+            font-size: 4px;
+           
+            margin-bottom: 30px;
+           
+        }
+        .coursename{
+          p{font-size: 4px;}
+          .h2head{
+            font-size: 4px;
+  
+          }
+          .best{
+            font-size: 4px;  
+          }
+          .name_view .p{
+            font-size: 3px;
+          }
+        }
+     
+        
+    }
+    .course-info{
+        width: fit-content;
+    }
+   .course-items{
+    width: fit-content;
+   }
+    
+    .course-desc{
+        
+        width: fit-content;
+        a{
+            
+            font-size: 5px;
+        }
+    }
+    
+
+    .course .course-info .best {
+        font-size: 6px;
+        margin-bottom: 30px;
+        height: 20px;
+        padding: 1px;
+        
+
+    }
+   
+    
+
+     
 }
 
 @media screen and (max-width: 395px)
@@ -775,5 +965,14 @@ font-size:7px;
     width: 100%; 
     margin-top :20px;
     font-size: 30px;
+ } 
+ .service{
+    display: flex;
+  width: 100%;
+  padding-left: 0px;
+  p{
+    font-size: small;
+  }
  }
+
 }
